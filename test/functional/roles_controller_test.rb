@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class RolesControllerTest < ActiveSupport::TestCase
+class RolesControllerTest < ActionController::TestCase
 
 	def setup
 		@admin = users(:quentin)

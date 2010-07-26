@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
-class PasswordsControllerTest < ActiveSupport::TestCase
+class PasswordsControllerTest < ActionController::TestCase
 
 	def setup
 		@admin = users(:quentin)
