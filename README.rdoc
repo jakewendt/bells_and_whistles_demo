@@ -1,0 +1,22 @@
+= Bells and Whistles Core Demo App
+
+== Used ...
+
+* {restful_authentication plugin}[]
+
+== Requires ..
+
+* {acts_as_list gem}[]
+* {file_column plugin}[]
+* your own mail settings in config/initializers/mail.rb
+
+== Then ...
+
+* rake db:migrate
+* script/server
+* login as admin with password admin
+
+== FYI
+
+I wrote this a few years ago and don't maintain it.
+

@@ -1,0 +1,85 @@
+quentin:
+  id: 1
+  login: quentin
+#  email: bellsandwhistles+quentin@jakewendt.com
+  email: restfulbellsandwhistles+quentin@gmail.com
+#  email: quentin@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 5.days.ago.to_s :db %>
+  activation_code: 8f24789ae988411ccf33ab0c30fe9106fab32e9b 
+  activated_at: <%= 5.days.ago.to_s :db %> 
+
+aaron:
+  id: 2
+  login: aaron
+#  email: bellsandwhistles+aaron@jakewendt.com
+  email: restfulbellsandwhistles+aaron@gmail.com
+#  email: aaron@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 1.days.ago.to_s :db %>
+  activation_code: 8f24789ae988411ccf33ab0c30fe9106fab32e9a 
+  activated_at: <%= 5.days.ago.to_s :db %> 
+
+jakeb:
+  id: 3
+  login: jakeb
+#  email: bellsandwhistles+jakeb@jakewendt.com
+  email: restfulbellsandwhistles+jakeb@gmail.com
+#  email: jakeb@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 3.days.ago.to_s :db %>
+  activation_code: 8f24789ae988411ccf33ab0c30fe9106fab32e9a 
+  activated_at: <%= 5.days.ago.to_s :db %> 
+
+# not yet activated
+nouveau:
+  id: 4
+  login: nouveau
+#  email: bellsandwhistles+nouveau@jakewendt.com
+  email: restfulbellsandwhistles+nouveau@gmail.com
+#  email: nouveau@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 3.days.ago.to_s :db %>
+  activation_code: test_activation_code
+
+forgetter:
+  id: 5
+  login: forgetter
+#  email: bellsandwhistles+forgetter@jakewendt.com
+  email: restfulbellsandwhistles+forgetter@gmail.com
+#  email: forgetter@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 3.days.ago.to_s :db %>
+  activation_code: 8f24789ae988411ccf33ab0c30fe9106fab32e9a 
+  activated_at: <%= 5.days.ago.to_s :db %> 
+  password_reset_code: test_reset_code
+
+activeuser:
+  id: 6
+  login: activeuser
+#  email: bellsandwhistles+activeuser@jakewendt.com
+  email: restfulbellsandwhistles+activeuser@gmail.com
+#  email: activeuser@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 3.days.ago.to_s :db %>
+  activation_code: already_active_code
+  activated_at: <%= 5.days.ago.to_s :db %> 
+
+activeuser:
+  id: 7
+  login: admin
+  email: bellsandwhistles@jakewendt.com
+#  email: restfulbellsandwhistles+admin@gmail.com
+#  email: activeuser@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  created_at: <%= 3.days.ago.to_s :db %>
+  activation_code: already_active_code
+  activated_at: <%= 5.days.ago.to_s :db %> 
+

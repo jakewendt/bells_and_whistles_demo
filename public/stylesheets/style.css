@@ -1,0 +1,89 @@
+* {
+  font-family: Georgia, Arial;
+}
+div#header {
+  border-bottom: 1px solid black;
+  background-color: #800;
+  padding: 1em;
+}
+.title {
+  text-align: center;
+}
+ul.menubar {
+  text-align: center;
+  padding: 0.5em;
+  margin: 0;
+}
+ul.menubar > li {
+  display: inline;
+  padding: 0.5em;
+}
+ul.menubar > li a {
+  color: white;
+  font-size: 14pt;
+}
+div#container {
+  width: 80em;
+  margin: 0 auto;
+}
+div#menu {
+  width: 12em;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+div#menu > ul {
+  margin: 0;
+  padding: 0.5em;
+}
+div#menu > ul > li {
+  list-style-type: none;
+  padding: 0.5em 1em;
+}
+div#menu > ul > li a {
+  padding: 0.3em;
+  font-weight: bold;
+  font-size: 14pt;
+}
+div#content {
+  width: 66em;
+  float: left;
+  margin: 0;
+  padding: 1em;
+}
+.flash {
+  padding: 0.7em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12pt;
+}
+.flash#error {
+  border: 2px solid #F44;
+  background-color: #FCC;
+}
+.flash#notice {
+  border: 2px solid #4F4;
+  background-color: #CFC;
+}
+a {
+  color: black;
+  padding: 0;
+  text-decoration: none;
+  font-size: 11pt;
+}
+h1 > a {
+  font-size: 20pt;
+}
+p {
+  font-family: Arial;
+  font-size: 14pt;
+  line-height: 18pt;
+}
+img#logo {
+  float:left;
+  height: 5.5em;
+  border: 0;
+}
+table#users td {
+  padding-left: 0.4em;
+}
