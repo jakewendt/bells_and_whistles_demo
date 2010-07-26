@@ -6,8 +6,8 @@
 
 == Requires ..
 
-* {acts_as_list gem}[]
-* {file_column plugin}[]
+* {acts_as_list gem}[] (included)
+* {file_column plugin}[] (included)
 * your own mail settings in config/initializers/mail.rb
 
 == Then ...
